@@ -1,0 +1,105 @@
+/* Add this to your App.css or create a new CSS file for styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .centered-dropdown {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dropdown {
+    width: 100%;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .config-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .config-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .config-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-confirm {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-reset {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Add some animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
